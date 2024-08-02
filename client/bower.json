@@ -1,0 +1,41 @@
+{
+  "name": "mvc-patten",
+  "description": "MVC pattern for MEAN app",
+  "main": "server.js",
+  "authors": [
+    "BlueROR815"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mvc",
+    "node",
+    "express",
+    "angular",
+    "mongodb",
+    "gulp"
+  ],
+  "dependencies": {
+    "bootstrap": "3.4.1",
+    "angular": "1.5.0",
+    "angular-route": "1.5.0",
+    "angular-resource": "1.5.0",
+    "components-font-awesome": "^6.5.2",
+    "angular-loading-bar": "^0.9.0",
+    "metisMenu": "^3.0.7",
+    "jquery-ui": "^1.12.1",
+    "angular-local-storage": "^0.7.1",
+    "angular-ui-router": "1.0.30",
+    "json3": "^3.3.2",
+    "oclazyload": "^1.1.0",
+    "angular-bootstrap": "^2.5.0"
+  },
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+

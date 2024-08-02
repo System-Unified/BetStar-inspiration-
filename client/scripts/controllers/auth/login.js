@@ -7,7 +7,7 @@
  * Controller of the sbAdminApp
  */
 angular.module('betting')
-  .controller('LoginCtrl', function ($http, $rootScope, $scope, $position, $state, UserInfo_service, Server_api_url) {
+  .controller('LoginCtrl', function ($http, $rootScope, $scope, $state, UserInfo_service, Server_api_url) {
 
     if (UserInfo_service.checkUrl() == true) {
       $scope.userInfo = {

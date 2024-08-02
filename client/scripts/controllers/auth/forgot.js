@@ -7,7 +7,7 @@
  * Controller of the sbAdminApp
  */
 angular.module('betting')
-  .controller('ForgotCtrl', function ($rootScope, $scope, $position, $state, UserInfo_service) {
+  .controller('ForgotCtrl', function ($rootScope, $scope, $state, UserInfo_service) {
 
     $('body').addClass('bg-black');
 

@@ -7,7 +7,7 @@
  * Controller of the sbAdminApp
  */
 angular.module('betting')
-  .controller('RegisterCtrl', function ($rootScope, $http, $scope, $position, $state, UserInfo_service, Server_api_url) {
+  .controller('RegisterCtrl', function ($rootScope, $http, $scope, $state, UserInfo_service, Server_api_url) {
 
     $('body').addClass('bg-black');
 
