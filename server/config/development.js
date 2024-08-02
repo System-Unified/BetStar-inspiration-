@@ -1,7 +1,7 @@
 module.exports = {
-  db: 'mongodb://localhost:27017/betting',
-  server_url: "http://192.168.12.208:4100",
-  server_api_url: "http://192.168.12.208:4100/api/",
+  db: 'mongodb://betstar-user:M2T754aPLSJ8NZtG@localhost:27017/betstar',
+  server_url: "http://127.0.0.1:4100",
+  server_api_url: "http://127.0.0.1:4100/api/",
   // server_url: "http://199.115.119.153:4100",
   // server_api_url: "http://199.115.119.153:4100/api/",
   account_eamil: "timothy0205@outlook.com",

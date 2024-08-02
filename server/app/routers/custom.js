@@ -3,15 +3,15 @@
 require('rootpath')();
 
 var express = require('express');
-var authentication = require('server/app/controllers/authentication.controller');
-var user = require('server/app/controllers/user.controller');
-var week = require('server/app/controllers/week.controller');
-var setting = require('server/app/controllers/setting.controller');
-var terminal = require('server/app/controllers/terminal.controller');
-var wallet = require('server/app/controllers/wallet.controller');
-var bet = require('server/app/controllers/bet.controller');
-var game = require('server/app/controllers/game.controller');
-var pos = require('server/app/controllers/pos.controller');
+var authentication = require('../controllers/authentication.controller');
+var user = require('../controllers/user.controller');
+var week = require('../controllers/week.controller');
+var setting = require('../controllers/setting.controller');
+var terminal = require('../controllers/terminal.controller');
+var wallet = require('../controllers/wallet.controller');
+var bet = require('../controllers/bet.controller');
+var game = require('../controllers/game.controller');
+var pos = require('../controllers/pos.controller');
 var router = express.Router();
 
 

@@ -9,7 +9,7 @@ require('rootpath')();
 require('dotenv').config();
 
 
-var env_config = require('server/config/development');
+var env_config = require('./server/config/development');
 
 var port = 4100;
 
@@ -34,7 +34,7 @@ app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-M
 app.use(express.static(__dirname + '/client')); // set the static files location /public/img will be /img for users
 
 // routes ==================================================
-require('router')(app); // pass our application into our routes
+require('./router')(app); // pass our application into our routes
 
 // route to handle all angular requests
 

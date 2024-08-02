@@ -5,11 +5,11 @@ require('rootpath')();
 var md5 = require('md5');
 var nodemailer = require('nodemailer');
 
-var model_user = require('server/app/models/user.model');
-var model_request = require('server/app/models/depositrequest.model');
-var env_config = require('server/config/development');
+var model_user = require('../models/user.model');
+var model_request = require('../models/depositrequest.model');
+var env_config = require('../../config/development');
 
-var service = require('server/app/controllers/service.controller');
+var service = require('../controllers/service.controller');
 
 var self = this;
 

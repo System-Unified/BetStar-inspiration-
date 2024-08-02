@@ -5,18 +5,18 @@ require('rootpath')();
 var md5 = require('md5');
 var nodemailer = require('nodemailer');
 
-var model_user = require('server/app/models/user.model');
-var model_bet = require('server/app/models/bet.model');
-var model_counter = require('server/app/models/counter.model');
-var model_setting = require('server/app/models/setting.model');
-var model_week = require('server/app/models/week.model');
-var model_terminal = require('server/app/models/terminal.model');
-var model_game = require('server/app/models/game.model');
-var model_summary = require('server/app/models/summary.model');
-var model_deleterequest = require('server/app/models/deleterequest.model');
-var env_config = require('server/config/development');
+var model_user = require('../models/user.model');
+var model_bet = require('../models/bet.model');
+var model_counter = require('../models/counter.model');
+var model_setting = require('../models/setting.model');
+var model_week = require('../models/week.model');
+var model_terminal = require('../models/terminal.model');
+var model_game = require('../models/game.model');
+var model_summary = require('../models/summary.model');
+var model_deleterequest = require('../models/deleterequest.model');
+var env_config = require('../../config/development');
 var crypto = require('crypto');
-var service = require('server/app/controllers/service.controller');
+var service = require('../controllers/service.controller');
 
 
 var self = this;

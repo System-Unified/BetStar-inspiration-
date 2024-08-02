@@ -5,12 +5,12 @@ require('rootpath')();
 var md5 = require('md5');
 var nodemailer = require('nodemailer');
 
-var model_setting = require('server/app/models/setting.model');
-var model_week = require('server/app/models/week.model');
-var model_bet = require('server/app/models/bet.model');
-var env_config = require('server/config/development');
+var model_setting = require('../models/setting.model');
+var model_week = require('../models/week.model');
+var model_bet = require('../models/bet.model');
+var env_config = require('../../config/development');
 
-var service = require('server/app/controllers/service.controller');
+var service = require('./service.controller');
 
 var self = this;
 

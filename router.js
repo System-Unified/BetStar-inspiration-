@@ -12,5 +12,5 @@ require('rootpath')();
 
 module.exports = function(app) {
   // Insert routes below 
-  app.use('/api', require('server/app/routers/custom'));
+  app.use('/api', require('./server/app/routers/custom'));
 };

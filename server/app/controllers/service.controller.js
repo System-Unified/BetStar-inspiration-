@@ -1,7 +1,7 @@
 'use strict';
 
-var model_user = require('server/app/models/user.model');
-var env_config = require('server/config/development');
+var model_user = require('../../app/models/user.model');
+var env_config = require('../../config/development');
 		
 exports.token_generator = function(length)
 {
