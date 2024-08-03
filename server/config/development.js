@@ -1,5 +1,5 @@
 module.exports = {
-  db: 'mongodb://betstar-user:M2T754aPLSJ8NZtG@localhost:27017/betstar',
+  db: 'mongodb://unified:Asdqwe123@localhost:27017/betstar',
   server_url: "http://127.0.0.1:4100",
   server_api_url: "http://127.0.0.1:4100/api/",
   // server_url: "http://199.115.119.153:4100",

@@ -4,26 +4,17 @@ This system is betting admin platform where you can manage games, users, bets, t
 # Technology
 Nodejs, Express, Angular1.5, Metronic, Mongodb
 
-# Images
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_1.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_2.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_3.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_4.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_5.png?raw=true)
-
 ## Import Data
 
 1. **Use your own database credentials**
 
    ```bash
-   mongoimport --uri "mongodb://<username>:<password>@localhost:27017/<database>" --collection <collection> --file <path-to-json-file> --jsonArray
+   mongoimport --uri "mongodb://<username>:<password>@localhost:27017/<database>" --collection users --file ./db-import.json --jsonArray
    ```
 
    - Replace `<username>` with your MongoDB username.
    - Replace `<password>` with your MongoDB password.
    - Replace `<database>` with your target database name.
-   - Replace `<collection>` with your target collection name.
-   - Replace `<path-to-json-file>` with the path to your JSON file.
 
 ## Setup Project
 
@@ -71,3 +62,9 @@ Nodejs, Express, Angular1.5, Metronic, Mongodb
    node server.js
    ```
 
+# Images
+![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_1.png?raw=true)
+![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_2.png?raw=true)
+![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_3.png?raw=true)
+![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_4.png?raw=true)
+![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_5.png?raw=true)
