@@ -63,8 +63,9 @@ Nodejs, Express, Angular1.5, Metronic, Mongodb
    ```
 
 # Images
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_1.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_2.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_3.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_4.png?raw=true)
-![alt text](https://github.com/bigshoesdev/BetStar/blob/master/Screenshot_5.png?raw=true)
+![Screenshot 1](docs/screenshots/Screenshot_1.png)
+![Screenshot 2](docs/screenshots/Screenshot_2.png)
+![Screenshot 3](docs/screenshots/Screenshot_3.png)
+![Screenshot 4](docs/screenshots/Screenshot_4.png)
+![Screenshot 5](docs/screenshots/Screenshot_5.png)
+![Screenshot 6](docs/screenshots/Screenshot_6.png)
