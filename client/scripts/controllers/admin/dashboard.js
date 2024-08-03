@@ -7,7 +7,7 @@
  * Controller of the sbAdminApp
  */
 angular.module('betting')
-  .controller('DashboardCtrl', function ($rootScope, $scope, $position, $route, $location, $templateCache, UserInfo_service, $interval, Server_api_url, $http) {
+  .controller('DashboardCtrl', function ($rootScope, $scope, $route, $location, $templateCache, UserInfo_service, $interval, Server_api_url, $http) {
 
 	UserInfo_service.checkUrl();
 	$('body').removeClass('bg-black');

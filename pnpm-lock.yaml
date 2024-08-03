@@ -12,10 +12,10 @@ importers:
         specifier: ~1.5.2
         version: 1.5.2
       body-parser:
-        specifier: ~1.4.2
+        specifier: ~1.4.3
         version: 1.4.3
       convert-excel-to-json:
-        specifier: ^1.2.1
+        specifier: ^1.7.0
         version: 1.7.0
       dotenv:
         specifier: ^2.0.0
@@ -24,25 +24,25 @@ importers:
         specifier: ~4.5.1
         version: 4.5.1
       md5:
-        specifier: ^2.1.0
+        specifier: ^2.3.0
         version: 2.3.0
       method-override:
         specifier: ~2.0.2
         version: 2.0.2
       mongoose:
-        specifier: ^4.4.10
+        specifier: ^4.13.21
         version: 4.13.21
       mysql:
-        specifier: ^2.10.2
+        specifier: ^2.18.1
         version: 2.18.1
       node-mongo-seeds:
-        specifier: ^2.2.7
+        specifier: ^2.3.2
         version: 2.3.2
       nodemailer:
-        specifier: ^4.4.2
+        specifier: ^4.7.0
         version: 4.7.0
       nodemon:
-        specifier: ^1.9.2
+        specifier: ^1.19.4
         version: 1.19.4
       request:
         specifier: ~2.69.0

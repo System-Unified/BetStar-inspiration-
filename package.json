@@ -4,40 +4,40 @@
   "description": "MVC pattern for MEAN app",
   "main": "server.js",
   "scripts": {
-	"test": "test"
+    "test": "test"
   },
   "repository": {
-	"type": "git",
-	"url": "git+ssh://git@github.com/blueror815/node-mvc-pattern.git"
+    "type": "git",
+    "url": "git+ssh://git@github.com/blueror815/node-mvc-pattern.git"
   },
   "keywords": [
-	"mvc",
-	"node",
-	"express",
-	"angular",
-	"mongodb",
-	"gulp"
+    "mvc",
+    "node",
+    "express",
+    "angular",
+    "mongodb",
+    "gulp"
   ],
   "author": "BlueROR815",
   "license": "ISC",
   "bugs": {
-	"url": "https://github.com/blueror815/node-mvc-pattern/issues"
+    "url": "https://github.com/blueror815/node-mvc-pattern/issues"
   },
   "homepage": "https://github.com/blueror815/node-mvc-pattern#readme",
   "dependencies": {
-	"async": "~1.5.2",
-	"body-parser": "~1.4.2",
-	"convert-excel-to-json": "^1.2.1",
-	"dotenv": "^2.0.0",
-	"express": "~4.5.1",
-	"md5": "^2.1.0",
-	"method-override": "~2.0.2",
-	"mongoose": "^4.4.10",
-	"mysql": "^2.10.2",
-	"node-mongo-seeds": "^2.2.7",
-	"nodemailer": "^4.4.2",
-	"nodemon": "^1.9.2",
-	"request": "~2.69.0",
-	"rootpath": "^0.1.2"
+    "async": "~1.5.2",
+    "body-parser": "~1.4.3",
+    "convert-excel-to-json": "^1.7.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.5.1",
+    "md5": "^2.3.0",
+    "method-override": "~2.0.2",
+    "mongoose": "^4.13.21",
+    "mysql": "^2.18.1",
+    "node-mongo-seeds": "^2.3.2",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^1.19.4",
+    "request": "~2.69.0",
+    "rootpath": "^0.1.2"
   }
 }

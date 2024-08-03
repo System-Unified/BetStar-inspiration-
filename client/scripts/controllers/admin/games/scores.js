@@ -7,7 +7,7 @@
  * Controller of the sbAdminApp
  */
 angular.module('betting')
-  .controller('ScoresCtrl', function ($rootScope, $scope, $position, UserInfo_service, $interval, Server_api_url, $http) {
+  .controller('ScoresCtrl', function ($rootScope, $scope,  UserInfo_service, $interval, Server_api_url, $http) {
 
 	UserInfo_service.checkUrl();
 
